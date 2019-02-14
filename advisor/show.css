@@ -1,0 +1,114 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+/*
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+*/
+
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+body{
+	font-family: Comfortaa, Helvetica, sans-serif;
+	background-color: aliceblue;
+    padding: 20px;
+}
+
+h1{
+	font-size: 20px;
+	padding: 50px 20px 20px 0;
+}
+
+.advisorTable{
+	font-size:15px;
+	margin:15px 0px;
+}
+.advisorTable td, .advisorTable th {
+  border: 1px solid #ddd;
+  padding: 4px;
+  text-align: center;
+}
+
+.advisorTable tr:nth-child(even){background-color: #f2f2f2;}
+
+.advisorTable tr:hover {background-color: #ddd;}
+
+.advisorTable th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+  background-color: #C08E00;
+  color: white;
+
+}
+
+
+input[type="submit"] {
+/* -webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+padding: 5px;
+width:100px; */
+} 
+
+/* input[type="radio"] {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+border: 1px solid black;
+	width:20px;
+} */
+
+#radio1{
+
+}
+form{
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;	
+}
+
+/*
+.advisorTable tr{
+    border:1px solid #ddd;
+}
+.advisorTable thead > tr> th {
+    border:1px solid #ddd;
+    padding:8px;
+}
+
+
+.advisorTable tbody tr:nth-child(even){
+    background:#ccc;
+    padding:8px;
+}
+*/
